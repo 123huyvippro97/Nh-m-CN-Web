@@ -15,11 +15,11 @@
 <body>
 	<!-- Header -->
 	<header id="home">
-		<!-- Background Image -->
+		<!-- Ảnh nền of Header -->
 		<div class="bg-img" style="background-image: url('.public/img/background1.jpg');">
 			<div class="overlay"></div>
 		</div>
-		<!-- /Background Image -->
+		<!-- /End Image -->
 
 		<!-- Nav -->
 		<nav id="nav" class="navbar nav-transparent">
