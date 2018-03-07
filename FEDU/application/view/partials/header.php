@@ -35,11 +35,11 @@
 					</div>
 					<!-- /Logo -->
 
-					<!-- Collapse nav button -->
+					<!-- tạo icon thu nhỏ cho thẻ nav header -->
 					<div class="nav-collapse">
 						<span></span>
 					</div>
-					<!-- /Collapse nav button -->
+					<!-- /thu gọn nav button -->
 				</div>
 
 				<!--  Main navigation  -->
