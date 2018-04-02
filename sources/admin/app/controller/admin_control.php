@@ -64,8 +64,9 @@
 			$header = [];
 			$header['title'] =  "This is Comics";
 			$header['content'] = "This is content Comics";
-			if (isset($_GET['id'])) {
+			if (isset($_GET['id'])) {//die($_GET['id']); xem thu id =.=
 				$id = trim($_GET['id']);
+
 				$deleteFollowID= $this->cmModel->delete('admins',$_GET['id']);
 				header('Location:?c=admin&state=success');
 			}
@@ -141,7 +142,7 @@
 				$status    = $_POST['slcStatusAD'] ?? '';
 				$note    = $_POST['noteAD'] ?? '';
 				$filename = null;
-				//echo $namecomis."    ".$authors."    ".$Editor."    ".$category."    ".$detail."    ".$status."    ".$filename;print_r($_FILES);die("<br/>");
+				//echo $username."    ".$PassWord."    ".$phone."    ".$email."    ".$fullName."    ".$address."    ".$status;print_r($_FILES);die("<br/>");
 				if (isset($_FILES['imagebook'])) {
 					$filename = myUploadData($_FILES);
 				}

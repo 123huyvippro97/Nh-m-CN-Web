@@ -12,7 +12,7 @@
             <?php endforeach; ?>
         </ul>
         <?php endif; ?>
-            <form class="form-horizontal form-material" action="?c=admin&m=handleupdate" method="post" enctype="multipart/form-data">
+            <form class="form-horizontal form-material" action="?c=admin&m=handleadd" method="post" enctype="multipart/form-data">
         <div class="form-group">
             <label class="col-md-12">Username</label>
             <div class="col-md-12">
