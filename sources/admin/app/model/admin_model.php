@@ -92,7 +92,7 @@
 			//echo "<pre/>";print_r($data);die();
 			return $this->update($table, $data, $nameId);
 		}
-		 public function deleteAdmin($table,$id)
+		 public function deleteComic($table,$id)
 		 {
 		  return $this->delete($table,$id);
 		 }

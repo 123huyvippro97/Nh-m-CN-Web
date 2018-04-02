@@ -20,7 +20,6 @@
 		{
 			$title = $header['title'] ?? '';
 			$content = $header['content'] ?? '';
-			$countCart = (isset($_SESSION['fav']) && !empty($_SESSION['fav'])) ? count($_SESSION['fav']) : 0;//kiem tra xem co bnieu sp trong gio hang neu khong co thi tra ve 0 sp
 			require 'application/view/partials/header_view.php' ;
 		}
 		function loadFooter(){
@@ -52,9 +51,6 @@
 		}
 		function loadSidebarPage($sidebar=[]){
 			require 'application/view/pageProduct/sidebar_pageProduct_view.php';
-		}
-		function loadFav($data=[]){
-			require 'application/view/fav/index_view.php';
 		}
 	}
 ?>

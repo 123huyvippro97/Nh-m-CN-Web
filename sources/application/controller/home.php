@@ -35,7 +35,7 @@
 				//die($value['id']);
 				$content['countFullManga'][$value['id']] = $this->_homeModel->getAllChapterBookById($value['id']);
 			}
-			//echo "<pre />"; print_r($content['topComic']); die();
+			//echo "<pre />"; print_r($content['topComicSix']); die();
 			// foreach ($content['allDataBooks'] as $key => $manga) {
 			// 	$split['cut'][$key] = explode(',', $manga['category']);
 			// 	//echo "<pre />"; print_r($split['cut']);

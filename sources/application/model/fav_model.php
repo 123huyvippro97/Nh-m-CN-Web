@@ -19,13 +19,13 @@
 				if ($stmt->execute()) 
 				{
 					if ($stmt->rowCount()>0) {
-						$data = $stmt ->fetch(PDO::FETCH_ASSOC);
+						$data = $stmt ->fetchAll(PDO::FETCH_ASSOC);
 					}
 				}
 				$stmt->closeCursor();
 			}
 			// echo "<pre/>";print_r($data);die();
-			return $data;
+			// return $data;
 		}
 
 	}

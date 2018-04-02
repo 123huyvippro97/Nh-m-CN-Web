@@ -36,7 +36,8 @@
         </div>
     </div>
     <script type="text/javascript">
-      $( document ).ready(function(){
+      $( document ).ready(function() {
+        
          // $(".content-chapter").toggleClass("imgvn");
          $( ".changeimages" ).click(function() {
           $(".content-chapter").toggleClass("imgvn");

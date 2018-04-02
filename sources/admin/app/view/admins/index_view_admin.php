@@ -38,7 +38,7 @@
 							<?php if(!empty($data['admins'])): ?>
 		                        <?php foreach($data['admins'] as $key =>$b): ?>
 									<tr>
-										
+
 										<td><?php  echo $key; ?></td>
 										<td><img src="<?php echo PATH_UPLOAD_ADMIN_IMG . $b['avatar']; ?>" alt="Comics" height="70px" width="70px"></td>
 										<td><?php echo $b['username']; ?></td>
@@ -48,9 +48,9 @@
 										<td><?php echo $b['note']; ?></td>
 										<td><?php 
 										if ($b["status"]==0) {
-										 	echo "Nghỉ việc";
-										 }  else{
 										 	echo "Còn làm việc";
+										 }  else{
+										 	echo "Nghỉ việc";
 										 }
 
 										?></td>
@@ -81,7 +81,7 @@
 			});	
 			$("#delete-button").click(function(){
 			    if(confirm("Are you sure you want to delete this?")){
-			        $("#delete-button").attr("href");
+			        $("#delete-button").attr("href", "?c=admin&m=index&page=<?php $page=$_GET['page'] ?? 1;echo $page; ?>&s=<?php $search=$_GET['s'] ?? ''; echo $search; ?>&id=<?php echo $b['id'] ?>");
 			    }
 			    else{
 			        return false;

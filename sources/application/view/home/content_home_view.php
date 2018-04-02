@@ -41,6 +41,7 @@
                       </div>
                     </div>
                     <?php foreach ($content['topComic'] as $key => $topBooks): ?>
+
                       <div class="item">
                        <div class="divimgslide">
                         <a class="aimg_slide" href="?c=details&id=<?php echo $topBooks['id']; ?>" title="<?php echo $topBooks['name_comic']; ?>">

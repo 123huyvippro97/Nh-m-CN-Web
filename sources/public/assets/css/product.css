@@ -104,19 +104,6 @@ div.header{
     .dropdown-menu{
       border: none;
     }
-    #eltagA{
-      float: right;border: 1px solid red;
-      height: 28px;
-      width: 28px;
-      background-color: #F7850A;
-      border: none;
-      margin-top: 1px;
-    }
-    #eltagA a{
-      font-size: 25px;
-      color: #C12E2A;
-      /*margin-bottom: 15px;*/
-    }
   /*End Style Header*/
 /*.navbar-nav > li > .dropdown-menu > li{ background-color: #FF0000; }*/
 

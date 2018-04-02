@@ -48,11 +48,10 @@
 							</span><br />
 						</div>
 						<div class="update">
-							<b id="getID" huy="<?php echo $data['dataMangaById']['id']; ?>">Ngày Update: </b>
+							<b>Ngày Update: </b>
 							<span><?php echo $data['dataMangaById']['update_time']; ?></span><br />
 						</div>
 						<a rel="nofollow" href="?c=manga&id=<?php echo $data['dataMangaById']['id']; ?>&chapter=1" class="btn btn-danger">Đọc liền cho máu!!! <i class="glyphicon glyphicon-fire"></i></a>
-						<a rel="nofollow" id="favr" href="?c=details&id=<?php echo $data['dataMangaById']['id']; ?>" class="btn btn-primary">Yêu thích !!! <i class="glyphicon glyphicon-heart"></i></a>
 					</div>
 				</div>
 				<div class="mangaDescription well-sm " id="des" style="background-color: #fff;"><?php echo $data['dataMangaById']['description']; ?></div>
@@ -83,19 +82,3 @@
 				</nav>
 			</div>
 		</div>
-
-<script type="text/javascript">
-    $(document).on('click', '#favr', function(){  
-    	var id = $("#getID").attr("huy");  
-    	$.ajax({  
-    		url:"?c=fav&m=add",  
-    		method:"GET",  
-    		data:{id:id},  
-    		success:function(data)  
-    		{  
-    			//$("#result").val(data);
-    			alert(data);  
-    		}  
-    	})  
-    });
-  </script>
