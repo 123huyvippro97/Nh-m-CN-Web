@@ -19,7 +19,7 @@
 		{
 			echo "NOT FOUND PAGE";
 		}
-		public function index()
+		public function index()// load dau tjen khi chay vao
 		{
 			//load data and handle data
 						//load data and handle data
@@ -126,7 +126,7 @@
 			//load footer
 			$this->loadFooterAdmin();
 		}
-		public function handleadd()
+		public function handleadd()//HAM XU LY
 		{
 			if (isset($_POST['btnSubmit'])) {
 				/*echo "<pre/>";
@@ -194,7 +194,7 @@
 				}
 			}
 		}
-		public function handleupdate()
+		public function handleupdate()//xu ly chuc nang update
 		{
 			if (isset($_POST['btnSubmit'])) {
 				/*echo "<pre/>";

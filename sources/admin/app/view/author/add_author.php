@@ -14,7 +14,7 @@
         <?php endif; ?>
         <form class="form-horizontal form-material" action="?c=author&m=handleadd" method="post" enctype="multipart/form-data">
         <div class="form-group">
-            <label class="col-md-12">name author</label>
+            <label class="col-md-12">Name author</label>
             <div class="col-md-12">
                 <input name="name_author" id="name_author" type="text" placeholder="Enter author" class="form-control form-control-line"></div>
         </div>

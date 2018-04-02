@@ -1,7 +1,7 @@
 <?php 	
 	namespace App\Config;
 	use \PDO;
-	class Database
+	class Database//Design file ket noi CSDL
 	{
 		
 		function __construct()
