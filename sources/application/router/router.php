@@ -1,7 +1,8 @@
 <?php 
+//file nay` co nhiem vu dieu huong trang web den cac thu muc controller de xu ly
 	session_start();
-	require "application/helper/common_helper.php";
-	require 'application/config/constant.php';
+	require "application/helper/common_helper.php";//require file thu vien dung chung cho tat ca cac function ben duoi
+	require 'application/config/constant.php';//require dinh nghia thu muc mac dinh khong thay doi nhu bien const co vai tro define.
 	class Router
 	{
 		function __construct()

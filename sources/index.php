@@ -1,4 +1,5 @@
 <?php 
+//Cu phap viet chu thich: - tieng viet khong dau
 	if (file_exists('application/router/router.php')) {//kiem tra xem co ton tai file router trong thu muc router chua ?
 		require 'application/router/router.php'; //exist -> truy cap vao`.
 	}

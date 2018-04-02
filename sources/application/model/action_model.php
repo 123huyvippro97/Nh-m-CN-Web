@@ -9,7 +9,7 @@
 		{
 			parent::__construct();
 		}
-		public function getAllDataByUpdate_time(){
+		public function getAllDataByUpdate_time(){// nhieu ham qua thay hoi ham nao thi e tra loi ham day chu chu thich tren tung dong khong het dc
 			$data = [];
 			$sql  = "SELECT a.* , b.name_author FROM comics as a INNER JOIN author as b WHERE b.id=a.id_author ORDER BY update_time desc
 					";
@@ -27,7 +27,7 @@
 			// echo "<pre/>";print_r($data);die();
 			return $data;
 		}
-		public function getDataByUpdate_time($start=0,$limmit=6){
+		public function getDataByUpdate_time($start=0,$limmit=6){// nhieu ham qua thay hoi ham nao thi e tra loi ham day chu chu thich tren tung dong khong het dc
 			$data = [];
 			$sql  = "SELECT a.* , b.name_author FROM comics as a INNER JOIN author as b WHERE b.id=a.id_author ORDER BY update_time desc
 					limit :start,:limmit
@@ -48,7 +48,7 @@
 			// echo "<pre/>";print_r($data);die();
 			return $data;
 		}
-		public function getAllDataMangaByKeyword($keyword = '')
+		public function getAllDataMangaByKeyword($keyword = '')// nhieu ham qua thay hoi ham nao thi e tra loi ham day chu chu thich tren tung dong khong het dc
 		{
 			$data = [];
 			$key = "%".$keyword."%";
@@ -75,7 +75,7 @@
 			}
 			return $data;
 		}
-		function create_link_manga($data)
+		function create_link_manga($data)// nhieu ham qua thay hoi ham nao thi e tra loi ham day chu chu thich tren tung dong khong het dc
 		{
 			$stringUri = '';
 			$uri= '';
@@ -89,7 +89,7 @@
 			// echo "<pre />";print_r($stringUri);die();
 				return $stringUri;
 		}
-		function panigation($totalRecord, $currentPage, $rowLimit, $keyword,$links)
+		function panigation($totalRecord, $currentPage, $rowLimit, $keyword,$links)// nhieu ham qua thay hoi ham nao thi e tra loi ham day chu chu thich tren tung dong khong het dc
 		{
 		//di xac dinh lai currentPage
 		//can tinh dc totalPage
@@ -148,7 +148,7 @@
 			);
 
 		}
-		public function getDataMangaByPage($keyword ='',$start,$limit)
+		public function getDataMangaByPage($keyword ='',$start,$limit)// nhieu ham qua thay hoi ham nao thi e tra loi ham day chu chu thich tren tung dong khong het dc
 		{
 			$data = [];
 			$key = "%".$keyword."%";
@@ -179,7 +179,7 @@
 			return $data;
 		}
 
-		public function getMaxChapter($idManga=2)
+		public function getMaxChapter($idManga=2)// nhieu ham qua thay hoi ham nao thi e tra loi ham day chu chu thich tren tung dong khong het dc
 		{
 			$data = [];
 			$sql  = "SELECT * from comics as a
@@ -205,7 +205,7 @@
 		}
 
 
-		public function getAllDataMangaByKeywordCategory($keyword = '')
+		public function getAllDataMangaByKeywordCategory($keyword = '')// nhieu ham qua thay hoi ham nao thi e tra loi ham day chu chu thich tren tung dong khong het dc
 		{
 			$data = [];
 			$key = "%".$keyword."%";
@@ -228,7 +228,7 @@
 			}
 			return $data;
 		}
-		public function getDataMangaByCategory($keyword ='',$start,$limit)
+		public function getDataMangaByCategory($keyword ='',$start,$limit)// nhieu ham qua thay hoi ham nao thi e tra loi ham day chu chu thich tren tung dong khong het dc
 		{
 			//echo $start;die();
 			$data = [];
@@ -257,7 +257,7 @@
 		}
 
 		// model tac gia\
-		public function getAllDataMangaByKeywordAuthor($keyword = '')
+		public function getAllDataMangaByKeywordAuthor($keyword = '')// nhieu ham qua thay hoi ham nao thi e tra loi ham day chu chu thich tren tung dong khong het dc
 		{
 			$data = [];
 			$key = "%".$keyword."%";
@@ -283,7 +283,7 @@
 			return $data;
 		}
 
-		public function getDataMangaByAuthor($keyword = '',$start,$limit)
+		public function getDataMangaByAuthor($keyword = '',$start,$limit)// nhieu ham qua thay hoi ham nao thi e tra loi ham day chu chu thich tren tung dong khong het dc
 		{
 			$data = [];
 			$key = "%".$keyword."%";
@@ -311,7 +311,7 @@
 			return $data;
 		}
 
-		public function getAllDataMangaByWoman()
+		public function getAllDataMangaByWoman()// nhieu ham qua thay hoi ham nao thi e tra loi ham day chu chu thich tren tung dong khong het dc
 		{
 			$data = [];
 			$sql = "SELECT a.*
@@ -334,7 +334,7 @@
 			}
 			return $data;
 		}
-		public function getDataMangaByWoman($start,$limit)
+		public function getDataMangaByWoman($start,$limit)// nhieu ham qua thay hoi ham nao thi e tra loi ham day chu chu thich tren tung dong khong het dc
 		{
 			$data = [];
 			$sql = "SELECT a.*
@@ -362,7 +362,7 @@
 		}
 		// End model tac gia
 		//hand MANGA BY MAN
-		public function getAllDataMangaByMan()
+		public function getAllDataMangaByMan()// nhieu ham qua thay hoi ham nao thi e tra loi ham day chu chu thich tren tung dong khong het dc
 		{
 			$data = [];
 			$sql = "SELECT a.*
@@ -386,7 +386,7 @@
 			}
 			return $data;
 		}
-		public function getDataMangaByMan($start,$limit)
+		public function getDataMangaByMan($start,$limit)// nhieu ham qua thay hoi ham nao thi e tra loi ham day chu chu thich tren tung dong khong het dc
 		{
 			$data = [];
 			$sql = "SELECT a.*
@@ -415,7 +415,7 @@
 		}
 		//END HANDLE BY MAN
 		//manga full
-				public function getAllMangaFinish()
+				public function getAllMangaFinish()// nhieu ham qua thay hoi ham nao thi e tra loi ham day chu chu thich tren tung dong khong het dc
 		{
 			$data = [];
 			$sql  = "SELECT a.*
@@ -437,7 +437,7 @@
 			}
 			return $data;
 		}
-		public function getMangaFinish($start,$limit)
+		public function getMangaFinish($start,$limit)// nhieu ham qua thay hoi ham nao thi e tra loi ham day chu chu thich tren tung dong khong het dc
 		{
 			$data = [];
 			$sql  = "SELECT a.*
@@ -464,7 +464,7 @@
 		}
 		//end manga full
 		//manga view
-				public function getAllTopManga()
+				public function getAllTopManga()// nhieu ham qua thay hoi ham nao thi e tra loi ham day chu chu thich tren tung dong khong het dc
 		{
 			$data = [];
 			$sql  = "SELECT a.*
@@ -486,7 +486,7 @@
 			return $data;
 		}
 		public function getTopManga($start,$limit)
-		{
+		{// nhieu ham qua thay hoi ham nao thi e tra loi ham day chu chu thich tren tung dong khong het dc
 			$data = [];
 			$sql  = "SELECT a.*
 					FROM comics as a 
