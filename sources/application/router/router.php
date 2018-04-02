@@ -21,6 +21,9 @@
 		function action(){
 			require 'application/controller/action_page.php';
 		}
+		function fav(){
+			require 'application/controller/fav_manga.php';
+		}
 
 	}
 	$c = isset($_GET['c']) ? trim($_GET['c']): 'home';//kiem tra xem co ton tai c tren trinh duyet hay k0 (theo phuong GET neu khong co thi gia tri mac dinh cua $c = home, va xoa khoang trang 2 dau o value c tren trinh duyet. 

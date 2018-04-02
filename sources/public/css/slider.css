@@ -92,7 +92,14 @@
     left: 0;
   }
 }
-
+/*body {
+  font-family: 'Bitter', sans-serif;
+  color: #E54A41;
+  background-image: url('//static.rtpdesign.co.uk/blog/img/background.png');
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: 20%;
+}*/
 p {
   font-family: 'Open Sans', sans-serif;
   color: #333;
