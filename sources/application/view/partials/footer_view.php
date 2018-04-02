@@ -39,9 +39,9 @@
 
     <!-- <script src="public/assets/js/jquery.min.js"></script>
     <script src="public/assets/bootstrap/js/bootstrap.min.js"></script> -->
+    <script src="public/assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="public/js/index.js"></script>
-<!--     <script src="public/assets/js/jquery.min.js"></script>
-    <script src="public/assets/bootstrap/js/bootstrap.min.js"></script> -->
+    <!-- <script src="public/js/contentmg.js"></script> -->
     <script type="text/javascript" src="public/js/main.js"></script>
 </body>
 

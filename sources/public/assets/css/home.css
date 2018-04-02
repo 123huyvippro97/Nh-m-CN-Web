@@ -1,3 +1,4 @@
+/*Style for slider*/
 div.area{
 	min-height: 295px;
 	margin:0px auto;
@@ -73,7 +74,11 @@ margin-left: 10px;
 .carousel-control.right,.carousel-control.left{
 	background-image: none;
 }
+
+/*End Style for slider*/
+
 /*Chapter*/
+
 .listAComic a
 {
 	text-decoration: none;

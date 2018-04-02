@@ -31,6 +31,9 @@ button.search{
 button.search:hover{
   background-color: lightskyblue;
 }*/
+
+
+/*Style Header*/
 div.header{
   background-color: #f7850a;
 }
@@ -101,7 +104,9 @@ div.header{
     .dropdown-menu{
       border: none;
     }
+  /*End Style Header*/
 /*.navbar-nav > li > .dropdown-menu > li{ background-color: #FF0000; }*/
+
 /*Style Content Web Comic*/
 .content
 {
@@ -179,7 +184,9 @@ div.header{
   margin-left: 220px;
   margin-top: 8px;
 }
+
 /*End style content Web Development*/
+
 /*product Sidebar*/
 
 span.num{
@@ -285,8 +292,11 @@ ul.ulListstory_right > li > .newsContent span > a{
 ul.ulListstory_right > li > .newsContent span > a:hover{
   color:orange;
 }
+
 /*End Product SideBar*/
+
 /*Product chapnews*/
+
 .chapnews{
   margin-top: 20px;
   float:left;
@@ -351,6 +361,7 @@ div.col-md-8.list.chapter .titlechapnew a{
   background-color: orange;
 }
 /*end list-chapter*/
+
 /*End Product chapnes*/
 .detailsPage{
   padding:0px 9px;
