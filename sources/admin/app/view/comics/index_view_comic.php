@@ -56,7 +56,7 @@
 										?></td>
 										<td><?php echo $b["create_time"]; ?></td>
 										<td><a href="?c=comics&m=update&id=<?php echo $b['id'] ?>" class="btn btn-warning" title="Edit">Edit</a></td>
-										<td><a href="?c=comics&m=index&page=<?php $page=$_GET['page'] ?? 1;echo $page; ?>&s=<?php $search=$_GET['s'] ?? ''; echo $search; ?>&id=<?php echo $b['id'] ?>" class="btn btn-danger" title="Delete">Delete</a></td>
+										<td><a href="?c=comics&m=index&page=<?php $page=$_GET['page'] ?? 1;echo $page; ?>&s=<?php $search=$_GET['s'] ?? ''; echo $search; ?>&id=<?php echo $b['id'] ?>" class="btn btn-danger" title="Delete" id="delete-button">Delete</a></td>
 									</tr>
 		                        <?php endforeach; ?>
 		                    	<?php else : ?>
@@ -79,6 +79,14 @@
 				let keyword = $('#txtSearch').val().trim();
 				window.location.href = "?c=comics&s="+keyword;
 			});	
+			$("#delete-button").click(function(){
+			    if(confirm("Are you sure you want to delete this?")){
+			        $("#delete-button").attr("href");
+			    }
+			    else{
+			        return false;
+			    }
+			});
 		});
 	</script>
 </div>

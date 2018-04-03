@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 01, 2018 at 11:09 PM
+-- Generation Time: Apr 03, 2018 at 12:36 PM
 -- Server version: 10.1.26-MariaDB
 -- PHP Version: 7.1.9
 
@@ -48,9 +48,9 @@ CREATE TABLE `admins` (
 --
 
 INSERT INTO `admins` (`id`, `username`, `password`, `email`, `fullname`, `phone`, `address`, `status`, `note`, `avatar`, `create_time`, `update_time`) VALUES
-(6, 'hoangbeo', '58b1216b06850385d9a4eadbedc806c4', 'hoangnv52@wru.vn', 'Vũ Quốc Huy', '01666624463', 'Hà Nội', 1, 'Sad Love !', 'beo.jpg', '2018-03-19', 2018),
-(10, 'Chuyện Tình Buồn', 'fa5c3e5dc9ac5dad7db723b276f6c913', '123huyvippro97@gmail.com', 'Vũ Quốc Huy', '01666624463', 'Hà Đông - Hà Nội', 1, 'Something', '15556205_1302600053130761_1049309462_o.jpg', '2018-03-31', 2018),
-(11, 'Vic97', 'e10adc3949ba59abbe56e057f20f883e', 'VicKute@gmail.com', 'Lê Đức Vic', '0976734190', 'Hà Nội', 1, 'Vic', 'vic.PNG', '2018-04-01', 2018);
+(1, 'SadLove', '38be9f53bc57725934a2e657adeabb47', 'huydz@gmail.com', 'Vũ Quốc Huy', '01666624463', 'Hà Đông- Hà Nội', 1, 'huydz', '15556205_1302600053130761_1049309462_o.jpg', '2018-04-02', NULL),
+(15, 'VicKute97', '14e1b600b1fd579f47433b88e8d85291', 'thangld52@gmail.com', 'Lê Đức Vic', '0123456741', 'Mai Động', 1, 'Tệ', 'vic.PNG', '2018-04-02', 2018),
+(16, 'hoangbeo', 'e10adc3949ba59abbe56e057f20f883e', 'hoangnv52@wru.vn', 'Nguyễn Việt Hoàng', '0981327898', 'Thường Tín', 1, 'Somthing', 'beo.jpg', '2018-04-02', NULL);
 
 -- --------------------------------------------------------
 
@@ -106,15 +106,12 @@ INSERT INTO `chapters` (`id`, `id_comic`, `id_edit`, `name_chapter`, `chapter`, 
 (6, 2, 3, '', 6, 21, 'http://4.bp.blogspot.com/_dlrtpMg80uE/TXUs5vt2A-I/AAAAAAAAnHs/o5zIy_fvRHg/s1600/Beel03_Credit.jpg?imgmax=2000http://4.bp.blogspot.com/_dlrtpMg80uE/TXUs69CBmgI/AAAAAAAAnHw/EnD3pl8C7t4/s1600/Beel6_01.jpg?imgmax=2000http://4.bp.blogspot.com/_dlrtpMg80uE/TXUs88zEAYI/AAAAAAAAnH4/BmlDfBCSL_U/s1600/Beel6_02_03.jpg?imgmax=2000http://3.bp.blogspot.com/_dlrtpMg80uE/TXUs9yvGLDI/AAAAAAAAnIA/4lroJUHOKGA/s1600/Beel6_04.jpg?imgmax=2000http://4.bp.blogspot.com/_dlrtpMg80uE/TXUtBqGGbzI/AAAAAAAAnIY/jEFbhAGc9rI/s1600/Beel6_07.jpg?imgmax=2000http://4.bp.blogspot.com/_dlrtpMg80uE/TXUtCmkElHI/AAAAAAAAnIg/wiG4aAaKZZs/s1600/Beel6_08.jpg?imgmax=2000http://4.bp.blogspot.com/_dlrtpMg80uE/TXUtEPADDZI/AAAAAAAAnIo/9t_RfMUeRlU/s1600/Beel6_09.jpg?imgmax=2000http://3.bp.blogspot.com/_dlrtpMg80uE/TXUtFaXQIcI/AAAAAAAAnIw/xPdddpudNkI/s1600/Beel6_10.jpg?imgmax=2000http://4.bp.blogspot.com/_dlrtpMg80uE/TXUtGTWhtjI/AAAAAAAAnI4/jV1MRCG07t8/s1600/Beel6_11.jpg?imgmax=2000http://3.bp.blogspot.com/_dlrtpMg80uE/TXUtHhwrwlI/AAAAAAAAnJA/gkcr2MmgRik/s1600/Beel6_12.jpg?imgmax=2000http://4.bp.blogspot.com/_dlrtpMg80uE/TXUtI3ao3xI/AAAAAAAAnJI/WqoNjSZdVGw/s1600/Beel6_13.jpg?imgmax=2000http://4.bp.blogspot.com/_dlrtpMg80uE/TXUtKMaEIuI/AAAAAAAAnJQ/pwb2OejO-XU/s1600/Beel6_14.jpg?imgmax=2000http://4.bp.blogspot.com/_dlrtpMg80uE/TXUtLOTyM4I/AAAAAAAAnJc/Gm7Zh8Otr5Y/s1600/Beel6_15.jpg?imgmax=2000http://3.bp.blogspot.com/_dlrtpMg80uE/TXUtMOfJLwI/AAAAAAAAnJk/5dpBYxTfTjE/s1600/Beel6_16.jpg?imgmax=2000http://4.bp.blogspot.com/_dlrtpMg80uE/TXUtNTKhquI/AAAAAAAAnJs/k7De1XF6nMA/s1600/Beel6_17.jpg?imgmax=2000http://4.bp.blogspot.com/_dlrtpMg80uE/TXUtOcMfJzI/AAAAAAAAnJ0/9-ImBFpcJpA/s1600/Beel6_18.jpg?imgmax=2000http://4.bp.blogspot.com/_dlrtpMg80uE/TXUtP7Rb6fI/AAAAAAAAnJ8/qbsnOv5NvDM/s1600/Beel6_19.jpg?imgmax=2000', NULL, '2018-03-19 00:00:00', NULL),
 (7, 2, 3, '', 7, 41, 'http://4.bp.blogspot.com/_dlrtpMg80uE/TXUskE0bvsI/AAAAAAAAnFA/-lhC_nrD5Io/s1600/Beel7_02.jpg?imgmax=2000http://4.bp.blogspot.com/_dlrtpMg80uE/TXUslXSRFuI/AAAAAAAAnFQ/7H_SLXPaD8Y/s1600/Beel7_03.jpg?imgmax=2000http://4.bp.blogspot.com/_dlrtpMg80uE/TXUsmexCpFI/AAAAAAAAnFY/mcDgNEACGGE/s1600/Beel7_04.jpg?imgmax=2000http://4.bp.blogspot.com/_dlrtpMg80uE/TXUsosAoupI/AAAAAAAAnFo/LcE5QNMojFw/s1600/Beel7_06.jpg?imgmax=2000http://4.bp.blogspot.com/_dlrtpMg80uE/TXUspwRwK6I/AAAAAAAAnFw/SurQnHlx2I8/s1600/Beel7_07.jpg?imgmax=2000http://4.bp.blogspot.com/_dlrtpMg80uE/TXUsq5VlINI/AAAAAAAAnF4/qNyOWIvh2bw/s1600/Beel7_08.jpg?imgmax=2000http://4.bp.blogspot.com/_dlrtpMg80uE/TXUssHRm0lI/AAAAAAAAnGA/3hD6xhemjrQ/s1600/Beel7_09.jpg?imgmax=2000http://4.bp.blogspot.com/_dlrtpMg80uE/TXUsuqlqraI/AAAAAAAAnGU/7Fq7H1JvHA8/s1600/Beel7_11.jpg?imgmax=2000http://3.bp.blogspot.com/_dlrtpMg80uE/TXUsv5nOgnI/AAAAAAAAnGc/axI3h9Sk9R4/s1600/Beel7_12.jpg?imgmax=2000http://4.bp.blogspot.com/_dlrtpMg80uE/TXUsw-zf20I/AAAAAAAAnGk/6H3GVm8un10/s1600/Beel7_13.jpg?imgmax=2000http://4.bp.blogspot.com/_dlrtpMg80uE/TXUszPg0tYI/AAAAAAAAnG0/hP2UkT58zbI/s1600/Beel7_15.jpg?imgmax=2000http://4.bp.blogspot.com/_dlrtpMg80uE/TXUs0cNXXaI/AAAAAAAAnG8/QhoBQXZBLLI/s1600/Beel7_16.jpg?imgmax=2000', NULL, '2018-03-19 00:00:00', NULL),
 (8, 2, 1, 'chap 8', 8, 0, 'http://4.bp.blogspot.com/_dlrtpMg80uE/TXUsD0bvfwI/AAAAAAAAnB8/Qhnd_Yt5CMI/s1600/beelzebub-ch008-01-color.jpg?imgmax=2000http://4.bp.blogspot.com/_dlrtpMg80uE/TXUsFafHsbI/AAAAAAAAnCE/u_sTyHjpjek/s1600/beelzebub-ch008-01.jpg?imgmax=2000http://4.bp.blogspot.com/_dlrtpMg80uE/TXUsGbI6gpI/AAAAAAAAnCM/lQWZvJBye8Q/s1600/beelzebub-ch008-02.jpg?imgmax=2000http://3.bp.blogspot.com/_dlrtpMg80uE/TXUsIzvenVI/AAAAAAAAnCc/ydVHM38BiGM/s1600/beelzebub-ch008-04.jpg?imgmax=2000http://4.bp.blogspot.com/_dlrtpMg80uE/TXUsKKReUTI/AAAAAAAAnCk/kaQKbLgPlns/s1600/beelzebub-ch008-05.jpg?imgmax=2000http://3.bp.blogspot.com/_dlrtpMg80uE/TXUsMYSU76I/AAAAAAAAnCs/FkzOpNmBX9w/s1600/beelzebub-ch008-06.jpg?imgmax=2000http://4.bp.blogspot.com/_dlrtpMg80uE/TXUsNmLAxTI/AAAAAAAAnC0/GOZFA_WJLvQ/s1600/beelzebub-ch008-07.jpg?imgmax=2000http://4.bp.blogspot.com/_dlrtpMg80uE/TXUsOpP-DqI/AAAAAAAAnC8/mDT1kWRgEpw/s1600/beelzebub-ch008-08.jpg?imgmax=2000http://3.bp.blogspot.com/_dlrtpMg80uE/TXUsQn9n4cI/AAAAAAAAnDE/xPrSmbFKxdo/s1600/beelzebub-ch008-09.jpg?imgmax=2000http://4.bp.blogspot.com/_dlrtpMg80uE/TXUsUMR0y5I/AAAAAAAAnDY/C3bvJPfvDlQ/s1600/beelzebub-ch008-11.jpg?imgmax=2000http://4.bp.blogspot.com/_dlrtpMg80uE/TXUsVZjPswI/AAAAAAAAnDg/yqwM4fbcLKk/s1600/beelzebub-ch008-12.jpg?imgmax=2000http://3.bp.blogspot.com/_dlrtpMg80uE/TXUsWzFuiOI/AAAAAAAAnDo/jQR_5TuzDv8/s1600/beelzebub-ch008-13.jpg?imgmax=2000http://4.bp.blogspot.com/_dlrtpMg80uE/TXUsYP8qMbI/AAAAAAAAnDw/TUTh8Q8wBlw/s1600/beelzebub-ch008-14.jpg?imgmax=2000http://4.bp.blogspot.com/_dlrtpMg80uE/TXUsaDySM_I/AAAAAAAAnEA/MXEr0PMeHi0/s1600/beelzebub-ch008-15.jpg?imgmax=2000http://4.bp.blogspot.com/_dlrtpMg80uE/TXUsbeix-yI/AAAAAAAAnEI/QCKTBaajmNA/s1600/beelzebub-ch008-16.jpg?imgmax=2000http://4.bp.blogspot.com/_dlrtpMg80uE/TXUscqFgmiI/AAAAAAAAnEQ/EEXr_6tQFTI/s1600/beelzebub-ch008-17.jpg?imgmax=2000http://4.bp.blogspot.com/_dlrtpMg80uE/TXUsd4ypgGI/AAAAAAAAnEY/OXAQVJlXY-4/s1600/beelzebub-ch008-18.jpg?imgmax=2000', NULL, '2018-03-19 00:00:00', NULL),
-(9, 5, 3, 'Phap su truong hoc Chap 1', 1, 0, 'http://3.bp.blogspot.com/-ujhY-TtD19U/T56q7A7SepI/AAAAAAAFDwc/T9f0KJCWE-g/s0/GS-0.jpg?imgmax=2000http://1.bp.blogspot.com/-4DRNHsoAGJQ/T56q8ad3MjI/AAAAAAAFDwk/DPV9-h4zKN0/s0/GS-1.jpg?imgmax=2000http://4.bp.blogspot.com/-t9e6uml-tcw/T56q942ov2I/AAAAAAAFDws/lL2GAV_-wCw/s0/GS-2.jpg?imgmax=2000http://2.bp.blogspot.com/-4SUWlJY65Gw/T56rBVJwXpI/AAAAAAAFDw0/vnTF4D3VZaI/s0/GS-3.jpg?imgmax=2000http://3.bp.blogspot.com/-_QJ4nqIzuuU/T56rDDvSN2I/AAAAAAAFDw8/mYpFn4q-k8M/s0/Gs-4.jpg?imgmax=2000http://3.bp.blogspot.com/-Tyn2AOX_W4c/T56rEt_I9OI/AAAAAAAFDxE/vQKtUp36jow/s0/GS-5.jpg?imgmax=2000http://1.bp.blogspot.com/-Qx4CcgOa-qw/T56rGbxbqJI/AAAAAAAFDxM/DnDgNVBNI7w/s0/GS-6.jpg?imgmax=2000http://2.bp.blogspot.com/-qf9ikUQAx-8/T56rHsqXR4I/AAAAAAAFDxU/tRYO-zCYZdg/s0/GS-7.jpg?imgmax=2000http://4.bp.blogspot.com/-J3YtZlPGk5w/T56rJDVnCnI/AAAAAAAFDxc/orDaCXems-E/s0/GS-8.jpg?imgmax=2000http://3.bp.blogspot.com/-XsoCDpRvnAM/T56rKQFNEFI/AAAAAAAFDxk/ytRoZuyXSc4/s0/Gs-09.jpg?imgmax=2000http://1.bp.blogspot.com/-n0_HMfWu0VQ/T56rLu_GbCI/AAAAAAAFDxs/LaWDUhCtSOI/s0/GS-10.jpg?imgmax=2000http://4.bp.blogspot.com/-6-QCtII73bg/T56rNf1C4lI/AAAAAAAFDx0/kPKOje3RAeg/s0/GS-11.jpg?imgmax=2000http://1.bp.blogspot.com/-QXNrSwIWVro/T56rPEP4dvI/AAAAAAAFDx8/Qfd3ms9tlWU/s0/Gs-12.jpg?imgmax=2000http://3.bp.blogspot.com/-FsRcs_owXn8/T56q6HJqZOI/AAAAAAAFDwU/ZE2f3cdmmBs/s0/GS-13.jpg?imgmax=2000http://3.bp.blogspot.com/-8nehYz-Uvmc/T56pi_9zSLI/AAAAAAAFDuU/i2qog7ts1Hs/s0/GS-14.jpg?imgmax=2000http://2.bp.blogspot.com/-GbpTZdf4bJk/T56pkeE0psI/AAAAAAAFDuc/vBXEpvxf2KA/s0/GS-15.jpg?imgmax=2000http://1.bp.blogspot.com/-ZMeBFw96xa4/T56plkKCGiI/AAAAAAAFDuk/X04vkVWVaRQ/s0/GS-16.jpg?imgmax=2000http://2.bp.blogspot.com/-9vS9vn3vHdk/T56pnILFVUI/AAAAAAAFDus/kas28UpmJiQ/s0/GS-17.jpg?imgmax=2000http://4.bp.blogspot.com/-AdGLUsXPYOE/T56pomWpPlI/AAAAAAAFDu0/eeCtPuY6k_M/s0/GS-18.jpg?imgmax=2000http://1.bp.blogspot.com/-G9hd2i1ca6c/T56pp5G9qHI/AAAAAAAFDu8/qT5RKTezgxg/s0/Gs-19.jpg?imgmax=2000http://4.bp.blogspot.com/-6EirivgEQis/T56prB5DLAI/AAAAAAAFDvE/kq3oZBEm1yg/s0/Gs-20.jpg?imgmax=2000http://2.bp.blogspot.com/-61DEWSQf4WU/T56psblEBnI/AAAAAAAFDvM/B6nYXoSRLgw/s0/Gs-21.jpg?imgmax=2000http://4.bp.blogspot.com/-j84oZ0iM9DA/T56ptvttOEI/AAAAAAAFDvU/JLt386n1IkM/s0/GS-22.jpg?imgmax=2000http://3.bp.blogspot.com/-z1RPm-O8Tjs/T56pv0_PzpI/AAAAAAAFDvc/BMcnGol7EBQ/s0/Gs-23.jpg?imgmax=2000http://1.bp.blogspot.com/-AEc5O2WekyM/T56pxcQj8TI/AAAAAAAFDvk/Kwj5TykIolk/s0/Gs-24.jpg?imgmax=2000http://2.bp.blogspot.com/--HghZAZpfEs/T56py1tqI1I/AAAAAAAFDvs/wCC313-Xw_8/s0/Gs-25.jpg?imgmax=2000http://1.bp.blogspot.com/-BjY7Q26rK40/T56p0feDohI/AAAAAAAFDv0/LYlw4KMrdww/s0/GS-26.jpg?imgmax=2000http://4.bp.blogspot.com/-GNnhOMxZtBA/T56p16IMzgI/AAAAAAAFDv8/FkmYek8i5eo/s0/Gs-27.jpg?imgmax=2000http://2.bp.blogspot.com/-AGhW6Hei3cc/T56p3sLP3zI/AAAAAAAFDwE/VPq6R47kKO0/s0/Gs-28.jpg?imgmax=2000http://2.bp.blogspot.com/-QW24Fhaq224/T56p4wruwdI/AAAAAAAFDwM/5QwjPTPpAmk/s0/Gs-29.jpg?imgmax=2000http://2.bp.blogspot.com/-TqPJaxaPKFs/T56phuq3n5I/AAAAAAAFDuM/o2aA5fwQ7YI/s0/Gs-30.jpg?imgmax=2000', NULL, NULL, NULL),
 (10, 1, 2, '', 1, 0, 'http://1.bp.blogspot.com/-8xF2eVMiNQk/TohVV6E7PII/AAAAAAAADBI/HSX2_MFOirM/s0/1.jpg%3fimgmax%3d?imgmax=2000http://4.bp.blogspot.com/-J9L3C7SWURc/TohVWXyA3tI/AAAAAAAADBM/Qq7-ELU2txY/s0/1.jpg%3fimgmax%3d?imgmax=2000http://1.bp.blogspot.com/-Ytp79CRLSeE/TohVapCIx-I/AAAAAAAADBg/v1es4Y4c-tE/s0/1.jpg%3fimgmax%3d?imgmax=2000http://2.bp.blogspot.com/-BgyAdh4Jn4I/TohVcGXjw-I/AAAAAAAADBk/z83qmFDVdlw/s0/1.jpg%3fimgmax%3d?imgmax=2000http://4.bp.blogspot.com/-eUyaBBysE_o/TohVdB9BwrI/AAAAAAAADBo/MEOhu7jWtEs/s0/1.jpg%3fimgmax%3d?imgmax=2000http://1.bp.blogspot.com/-WJSnjjBf7ro/TohVeKF2WaI/AAAAAAAADBs/x-zgOXoHx-4/s0/1.jpg%3fimgmax%3d?imgmax=2000http://4.bp.blogspot.com/-iNX1uMs1sTc/TohVefeUw7I/AAAAAAAADBw/kujRwsZ3OUU/s0/1.jpg%3fimgmax%3d?imgmax=2000http://1.bp.blogspot.com/-2_h-4odtd18/TohVfYL9DUI/AAAAAAAADB0/Z-wrgA0PKw0/s0/1.jpg%3fimgmax%3d?imgmax=2000http://2.bp.blogspot.com/-yvTnZlp0q5Q/TohVgKenlFI/AAAAAAAADB4/T5NOivjmtMg/s0/1.jpg%3fimgmax%3d?imgmax=2000http://3.bp.blogspot.com/-oJdHybbhhX4/TohVg5xxoeI/AAAAAAAADB8/nWEHRcSfOh4/s0/1.jpg%3fimgmax%3d?imgmax=2000http://3.bp.blogspot.com/-BmgvgUjdCME/TohVhr9mxUI/AAAAAAAADCA/hKmQi074WtE/s0/1.jpg%3fimgmax%3d?imgmax=2000http://1.bp.blogspot.com/-_7ClYWB8B0s/TohVihHUPmI/AAAAAAAADCE/95LceorVQf4/s0/1.jpg%3fimgmax%3d?imgmax=2000http://2.bp.blogspot.com/-4Ou-zuVOinU/TohVj8dYnmI/AAAAAAAADCI/pb7Dj8QiUOA/s0/1.jpg%3fimgmax%3d?imgmax=2000http://2.bp.blogspot.com/-176g_HrsPqY/TohVk7y015I/AAAAAAAADCM/h6zUmNWMgqo/s0/1.jpg%3fimgmax%3d?imgmax=2000http://4.bp.blogspot.com/-GWcgoGfHtXE/TohVlqnzylI/AAAAAAAADCQ/j2UuOdASX_o/s0/1.jpg%3fimgmax%3d?imgmax=2000http://3.bp.blogspot.com/-Kd45x6D1o5g/TohVmK-EcpI/AAAAAAAADCU/4FfQepmcl1Y/s0/1.jpg%3fimgmax%3d?imgmax=2000http://3.bp.blogspot.com/-uK8FWLy7S_4/TohVm1CFkLI/AAAAAAAADCY/1_9vk5oma7Y/s0/1.jpg%3fimgmax%3d?imgmax=2000http://4.bp.blogspot.com/-TP8zstkYlg0/TohVnkDnnDI/AAAAAAAADCc/X3Se1LrgzEQ/s0/1.jpg%3fimgmax%3d?imgmax=2000http://2.bp.blogspot.com/-I43CBei8jtY/TohVofeilII/AAAAAAAADCg/Q8dnCC-6H7s/s0/1.jpg%3fimgmax%3d?imgmax=2000http://3.bp.blogspot.com/-sAADaeSQtak/TohVpKA0elI/AAAAAAAADCk/Z-Q9r1yq4hI/s0/1.jpg%3fimgmax%3d?imgmax=2000http://3.bp.blogspot.com/-M1DkDVbe90Q/TohVpmQKvbI/AAAAAAAADCo/FCbWKVPxSgw/s0/1.jpg%3fimgmax%3d?imgmax=2000http://1.bp.blogspot.com/-IA3l4NA_qtE/TohVqOoO3CI/AAAAAAAADCs/oiCXJXPn9f4/s0/1.jpg%3fimgmax%3d?imgmax=2000http://2.bp.blogspot.com/-o-BlvgTgSns/TohVqvC1NpI/AAAAAAAADCw/BUZS65v6W-k/s0/1.jpg%3fimgmax%3d?imgmax=2000http://1.bp.blogspot.com/-HnNSbVYUk10/TohVrDHaxSI/AAAAAAAADC4/iUEZkZEZMu4/s0/1.jpg%3fimgmax%3d?imgmax=2000http://1.bp.blogspot.com/-f-KeWSarHwo/TohVrwbjH4I/AAAAAAAADC8/N3w7hCuxhw0/s0/1.jpg%3fimgmax%3d?imgmax=2000http://3.bp.blogspot.com/-EEtYBpaJ1qw/TohVsZADC6I/AAAAAAAADDA/CkX8BCDWT3g/s0/1.jpg%3fimgmax%3d?imgmax=2000http://2.bp.blogspot.com/-hNgJbuIKz4c/TohVtKqbdwI/AAAAAAAADDE/9sXINbWv8oc/s0/1.jpg%3fimgmax%3d?imgmax=2000http://4.bp.blogspot.com/-PWhCvQNiN-Q/TohVtkLf-7I/AAAAAAAADDI/GUZriENnmkY/s0/1.jpg%3fimgmax%3d?imgmax=2000http://2.bp.blogspot.com/-pCPmv6AiVxA/TohVuLETYkI/AAAAAAAADDM/OS8xouOxkZE/s0/1.jpg%3fimgmax%3d?imgmax=2000http://1.bp.blogspot.com/-RSFOYv-HCFY/TohVu75_fxI/AAAAAAAADDQ/nqH-bsG0O9I/s0/1.jpg%3fimgmax%3d?imgmax=2000http://2.bp.blogspot.com/-jW6pax-WMUY/TohVvRrSdmI/AAAAAAAADDU/eO-nqssM8Ws/s0/1.jpg%3fimgmax%3d?imgmax=2000http://2.bp.blogspot.com/-PuO4f7zRkOk/TohVvyRce7I/AAAAAAAADDY/6s1B02fZ45Y/s0/1.jpg%3fimgmax%3d?imgmax=2000http://4.bp.blogspot.com/-ZvpgPBRp2rA/TohVwnQf2-I/AAAAAAAADDc/lvSOStdQ61w/s0/1.jpg%3fimgmax%3d?imgmax=2000http://2.bp.blogspot.com/-hL-Z1_3gFyo/TohVxMdPdEI/AAAAAAAADDg/mhEL2fnYpms/s0/1.jpg%3fimgmax%3d?imgmax=2000http://3.bp.blogspot.com/-c-7PeBkx1FA/TohVxvma1JI/AAAAAAAADDk/Iaddo0R4JoM/s0/1.jpg%3fimgmax%3d?imgmax=2000http://4.bp.blogspot.com/-TvNvw0x6kEY/TohVyUEI0eI/AAAAAAAADDo/pHgpn2JNh5I/s0/1.jpg%3fimgmax%3d?imgmax=2000http://4.bp.blogspot.com/-hM1Q_pYgIms/TohVy35i1jI/AAAAAAAADDs/936yDfsnhkw/s0/1.jpg%3fimgmax%3d?imgmax=2000http://1.bp.blogspot.com/-SSUsSyfCSPE/TohVYMEqHvI/AAAAAAAADBU/BHPnsdGy9qk/s0/1.jpg%3fimgmax%3d?imgmax=2000http://1.bp.blogspot.com/-jROxJfUMG44/TohVY_uLcWI/AAAAAAAADBY/wgSOGO1Zxkc/s0/1.jpg%3fimgmax%3d?imgmax=2000http://1.bp.blogspot.com/-c0zeussQyUI/TohVZSQVwJI/AAAAAAAADBc/vVS5CQya9i8/s0/1.jpg%3fimgmax%3d', 'detective_conan_1_1.jpg/detective_conan_1_2.jpg/detective_conan_1_3.jpg/detective_conan_1_4.jpg/detective_conan_1_5.jpg/detective_conan_1_6.jpg/detective_conan_1_7.jpg/detective_conan_1_8.jpg/detective_conan_1_9.jpg/detective_conan_1_10.jpg/detective_conan_1_11.jpg/detective_conan_1_12.jpg/detective_conan_1_13.jpg/detective_conan_1_14.jpg/detective_conan_1_15.jpg/detective_conan_1_16.jpg/detective_conan_1_17.jpg/detective_conan_1_18.jpg/detective_conan_1_19.jpg/detective_conan_1_20.jpg/detective_conan_1_21.jpg/detective_conan_1_22.jpg/detective_conan_1_23.jpg/detective_conan_1_24.jpg/detective_conan_1_25.jpg/detective_conan_1_26.jpg/detective_conan_1_27.jpg/detective_conan_1_28.jpg/detective_conan_1_29.jpg/detective_conan_1_30.jpg/detective_conan_1_31.jpg/detective_conan_1_32.jpg/detective_conan_1_33.jpg/detective_conan_1_34.jpg/detective_conan_1_35.jpg/detective_conan_1_36.jpg/detective_conan_1_37.jpg/detective_conan_1_38.jpg/detective_conan_1_39.jpg/detective_conan_1_40.jpg', NULL, NULL),
 (11, 1, 2, '', 2, 0, 'http://2.bp.blogspot.com/-m1rzN_tYn8M/TohU2Zde5fI/AAAAAAAAC_Y/j-iPiC4xPTQ/s0/1.jpg%3fimgmax%3d?imgmax=2000http://3.bp.blogspot.com/-EKHj_y-U0cM/TohU3apbz5I/AAAAAAAAC_c/2h3y9NBkR2U/s0/1.jpg%3fimgmax%3d?imgmax=2000http://1.bp.blogspot.com/-mEJAp4iOAjo/TohU4okgaoI/AAAAAAAAC_g/a2D-j07m_us/s0/1.jpg%3fimgmax%3d?imgmax=2000http://2.bp.blogspot.com/-89E3W6esPXY/TohU5lfReuI/AAAAAAAAC_k/Bp-qakCiItE/s0/1.jpg%3fimgmax%3d?imgmax=2000http://4.bp.blogspot.com/-IqCsof66W9Y/TohU611CcvI/AAAAAAAAC_o/KrVC-RjaVLw/s0/1.jpg%3fimgmax%3d?imgmax=2000http://3.bp.blogspot.com/-jFMFGyj8bNQ/TohU7teeTiI/AAAAAAAAC_s/cUzsGZR82W4/s0/1.jpg%3fimgmax%3d?imgmax=2000http://1.bp.blogspot.com/-gFelmrUR0cw/TohU8uOMzHI/AAAAAAAAC_w/wb3IhWRA_z0/s0/1.jpg%3fimgmax%3d?imgmax=2000http://2.bp.blogspot.com/-rNyE6tTxAVs/TohU9vuZK9I/AAAAAAAAC_0/V2CNzApFtuM/s0/1.jpg%3fimgmax%3d?imgmax=2000http://2.bp.blogspot.com/-Rv1KvSoA0sE/TohU-pltnrI/AAAAAAAAC_4/Yy1O25Rwjt4/s0/1.jpg%3fimgmax%3d?imgmax=2000http://3.bp.blogspot.com/-LS2le9jGTC0/TohU_g8aqHI/AAAAAAAAC_8/ogorcxA2vZE/s0/1.jpg%3fimgmax%3d?imgmax=2000http://1.bp.blogspot.com/-rck2HFUPFlc/TohVAulcKPI/AAAAAAAADAA/kTY5ObPbjxI/s0/1.jpg%3fimgmax%3d?imgmax=2000http://2.bp.blogspot.com/-WvsHUn6DIxs/TohVB8iIiZI/AAAAAAAADAE/tsEV2Zm4Ku8/s0/1.jpg%3fimgmax%3d?imgmax=2000http://2.bp.blogspot.com/-HU8Iaik8c04/TohVC5uIvwI/AAAAAAAADAI/oWhQ2wJ-Hqo/s0/1.jpg%3fimgmax%3d?imgmax=2000http://3.bp.blogspot.com/-RWhDdkJjVcM/TohVD6yl-JI/AAAAAAAADAM/JXoVD_bv-IE/s0/1.jpg%3fimgmax%3d?imgmax=2000http://3.bp.blogspot.com/-zR3UA_g3mg4/TohVEy_tRqI/AAAAAAAADAQ/ZFpMHUa-8gQ/s0/1.jpg%3fimgmax%3d?imgmax=2000http://1.bp.blogspot.com/--1Kvl5YEwu8/TohVIMWq8ZI/AAAAAAAADAU/IYY4drjOQ20/s0/1.jpg%3fimgmax%3d?imgmax=2000http://2.bp.blogspot.com/-HuS6QQjKzsI/TohVI-4sbBI/AAAAAAAADAY/2lz-WsHvZFo/s0/1.jpg%3fimgmax%3d?imgmax=2000http://1.bp.blogspot.com/-gKTnhQOdWOg/TohVJyvH8CI/AAAAAAAADAc/0rpg80lRgjU/s0/1.jpg%3fimgmax%3d?imgmax=2000http://1.bp.blogspot.com/-lWVWNW_h4D0/TohVLGKqi4I/AAAAAAAADAg/_Vy-24SPHT8/s0/1.jpg%3fimgmax%3d?imgmax=2000http://4.bp.blogspot.com/-Q9WhAOiYgSE/TohVL_nKF9I/AAAAAAAADAk/K49NR1YJcDc/s0/1.jpg%3fimgmax%3d?imgmax=2000http://3.bp.blogspot.com/-sw65-EYRqB0/TohVNFcQ-cI/AAAAAAAADAo/cpGn_W-IZ74/s0/1.jpg%3fimgmax%3d?imgmax=2000http://1.bp.blogspot.com/-dxXPBG-MkXY/TohVOfLZ0dI/AAAAAAAADAs/-Y5R0SDDXVU/s0/1.jpg%3fimgmax%3d?imgmax=2000http://3.bp.blogspot.com/-7XRcp44-iwg/TohVPAm8b5I/AAAAAAAADAw/TTDtS5BCneo/s0/1.jpg%3fimgmax%3d?imgmax=2000http://1.bp.blogspot.com/-6H37ecNBS7c/TohVP_TbolI/AAAAAAAADA0/-v6Zxepqtmw/s0/1.jpg%3fimgmax%3d?imgmax=2000http://2.bp.blogspot.com/-H_Etb2GQRBI/TohVRBt7lBI/AAAAAAAADA4/JIvuqIJPndY/s0/1.jpg%3fimgmax%3d?imgmax=2000http://2.bp.blogspot.com/-aLqMntb6QbA/TohVSZEiKmI/AAAAAAAADA8/5AurHOVD8Us/s0/1.jpg%3fimgmax%3d?imgmax=2000http://2.bp.blogspot.com/-RGtjvJ9I9xQ/TohVTGojSEI/AAAAAAAADBA/h9IHqPm77QU/s0/1.jpg%3fimgmax%3d?imgmax=2000', 'detective_conan_2_2.jpg/detective_conan_2_3.jpg/detective_conan_2_4.jpg/detective_conan_2_5.jpg/detective_conan_2_6.jpg/detective_conan_2_7.jpg/detective_conan_2_8.jpg/detective_conan_2_9.jpg/detective_conan_2_10.jpg/detective_conan_2_11.jpg/detective_conan_2_12.jpg/detective_conan_2_13.jpg/detective_conan_2_14.jpg/detective_conan_2_15.jpg/detective_conan_2_16.jpg/detective_conan_2_17.jpg/detective_conan_2_18.jpg/detective_conan_2_19.jpg/detective_conan_2_20.jpg/detective_conan_2_21.jpg/detective_conan_2_22.jpg/detective_conan_2_23.jpg/detective_conan_2_24.jpg/detective_conan_2_25.jpg/detective_conan_2_26.jpg/detective_conan_2_27.jpg/detective_conan_2_28.jpg', '2018-03-31 03:11:11', NULL),
 (12, 1, 2, '', 3, 0, 'http://1.bp.blogspot.com/-uVgHyaY0Arw/TohUlYYZqlI/AAAAAAAAC-U/CJh4BAJANgk/s0/1.jpg%3fimgmax%3d?imgmax=2000http://3.bp.blogspot.com/-lSlmcZOepCc/TohUmep3RaI/AAAAAAAAC-Y/r2ESPHu2tRM/s0/1.jpg%3fimgmax%3d?imgmax=2000http://1.bp.blogspot.com/-XQjCTODIISk/TohUnBYmtSI/AAAAAAAAC-c/m4Tq23Ybz4w/s0/1.jpg%3fimgmax%3d?imgmax=2000http://1.bp.blogspot.com/-dCu-OtSp608/TohUoC5aNSI/AAAAAAAAC-g/-QWSYpxQ_TI/s0/1.jpg%3fimgmax%3d?imgmax=2000http://4.bp.blogspot.com/-ftzovG7QH1w/TohUpNld2bI/AAAAAAAAC-k/M4xcFkdT4ZY/s0/1.jpg%3fimgmax%3d?imgmax=2000http://4.bp.blogspot.com/-2M5nFCTK8Ns/TohUqdrQMZI/AAAAAAAAC-s/-oAKPEAh120/s0/1.jpg%3fimgmax%3d?imgmax=2000http://2.bp.blogspot.com/-T-GRSUBD4Hs/TohUr4fEbhI/AAAAAAAAC-w/RAbsl7oHsBs/s0/1.jpg%3fimgmax%3d?imgmax=2000http://1.bp.blogspot.com/-UDeGyM_UD-A/TohUs08XtpI/AAAAAAAAC-0/xMzWpQ138L4/s0/1.jpg%3fimgmax%3d?imgmax=2000http://4.bp.blogspot.com/-FnQLX3IDiJQ/TohUtzkuhdI/AAAAAAAAC-4/PrYb3oKQWIA/s0/1.jpg%3fimgmax%3d?imgmax=2000http://3.bp.blogspot.com/-SBoDwYySq08/TohUukwWJ8I/AAAAAAAAC-8/P3unPQirwFs/s0/1.jpg%3fimgmax%3d?imgmax=2000http://3.bp.blogspot.com/-o1lxRLL9Ovw/TohUvpo-r5I/AAAAAAAAC_A/ur3JO5ffeic/s0/1.jpg%3fimgmax%3d?imgmax=2000http://3.bp.blogspot.com/-5DRCxTcG5D4/TohUwoZenaI/AAAAAAAAC_E/FFI9g9ZD9bk/s0/1.jpg%3fimgmax%3d?imgmax=2000http://1.bp.blogspot.com/-ehmlx0ZqaUU/TohUxh9MnyI/AAAAAAAAC_I/zkipyzepsTo/s0/1.jpg%3fimgmax%3d?imgmax=2000http://4.bp.blogspot.com/--uHyDGjv9pA/TohUyn8HPPI/AAAAAAAAC_M/O8cZTmd8DFw/s0/1.jpg%3fimgmax%3d?imgmax=2000http://4.bp.blogspot.com/-vqnCnz36XIE/TohUzusrwKI/AAAAAAAAC_Q/k47tYxR94jY/s0/1.jpg%3fimgmax%3d?imgmax=2000', 'detective_conan_3_1.jpg/detective_conan_3_2.jpg/detective_conan_3_3.jpg/detective_conan_3_4.jpg/detective_conan_3_5.jpg/detective_conan_3_6.jpg/detective_conan_3_7.jpg/detective_conan_3_8.jpg/detective_conan_3_9.jpg/detective_conan_3_10.jpg/detective_conan_3_11.jpg/detective_conan_3_12.jpg/detective_conan_3_13.jpg/detective_conan_3_14.jpg/detective_conan_3_15.jpg/detective_conan_3_16.jpg', '2018-03-31 03:14:28', NULL),
 (13, 4, 3, '', 1, 0, 'http://3.bp.blogspot.com/-ztwgPoeBTTk/UnyJQLyTy0I/AAAAAAACBoQ/V8DNGVlvVVk/s1600/Chap+001-01.jpg?imgmax=2000http://1.bp.blogspot.com/-fMBJi5XHbeI/UnyJP_iEBNI/AAAAAAACBoM/Cf6krDKhsJE/s1600/Chap+001-02.jpg?imgmax=2000http://1.bp.blogspot.com/-nu8mgEdFtyE/UnyJQJkaniI/AAAAAAACBoU/YrGMKQ3aQ2k/s1600/Chap+001-03.jpg?imgmax=2000http://2.bp.blogspot.com/-d3B6qHS3mxU/UnyJQzaQ2yI/AAAAAAACBow/nS1TTMeE_SI/s1600/Chap+001-04.jpg?imgmax=2000http://3.bp.blogspot.com/-aWcBQPKQOT0/UnyJRCEqevI/AAAAAAACBoo/mITBo2Ne3rg/s1600/Chap+001-05.jpg?imgmax=2000http://1.bp.blogspot.com/-EqQUg5fDY6w/UnyJRBI_vDI/AAAAAAACBok/O5Wgq1un65Y/s1600/Chap+001-06.jpg?imgmax=2000http://4.bp.blogspot.com/-uKGC7Z9okyw/UnyJSIW3_BI/AAAAAAACBo4/FkM7FYIbDiY/s1600/Chap+001-07.jpg?imgmax=2000http://1.bp.blogspot.com/-UGvob2Ao1aI/UnyJSQfjIFI/AAAAAAACBpE/psgrYWvAics/s1600/Chap+001-08.jpg?imgmax=2000http://4.bp.blogspot.com/-vJLZF727Irw/UnyJS6M8K0I/AAAAAAACBpI/-1VZNO45tnQ/s1600/Chap+001-09.jpg?imgmax=2000http://4.bp.blogspot.com/-pEVQIJ9AuYQ/UnyJSz8BqQI/AAAAAAACBpQ/lrQKDX7QaNk/s1600/Chap+001-10.jpg?imgmax=2000http://3.bp.blogspot.com/-X4bqSeOks0g/UnyJTTmGISI/AAAAAAACBpY/VViN6gmGzk4/s1600/Chap+001-11.jpg?imgmax=2000http://2.bp.blogspot.com/-rWRQb06a93M/UnyJT7f6_7I/AAAAAAACBpk/reS5KSfwUkg/s1600/Chap+001-12.jpg?imgmax=2000http://3.bp.blogspot.com/-NdOAwhcmdu0/UnyJUWflqgI/AAAAAAACBps/rFHBGz654Rc/s1600/Chap+001-13.jpg?imgmax=2000http://1.bp.blogspot.com/-DJe9P9e_VIo/UnyJUsfWtFI/AAAAAAACBpw/Rr4SEI2uLcQ/s1600/Chap+001-14.jpg?imgmax=2000http://1.bp.blogspot.com/-Npp6x8W2WjE/UnyJUxn9Q-I/AAAAAAACBp4/rD92jYWjUq8/s1600/Chap+001-15.jpg?imgmax=2000http://4.bp.blogspot.com/-Sv8VAwBUqNs/UnyJVYqchOI/AAAAAAACBp8/6y5OO5MJZVw/s1600/Chap+001-16.jpg?imgmax=2000', 'doraemon_1_1.jpg/doraemon_1_5.jpg/doraemon_1_6.jpg/doraemon_1_7.jpg/doraemon_1_8.jpg/doraemon_1_9.jpg/doraemon_1_10.jpg/doraemon_1_11.jpg/doraemon_1_12.jpg/doraemon_1_13.jpg/doraemon_1_14.jpg/doraemon_1_15.jpg/doraemon_1_16.jpg/doraemon_1_17.jpg/doraemon_1_18.jpg/doraemon_1_19.jpg/doraemon_1_20.jpghttp://2.bp.blogspot.com/-V5mRgEYE4ds/UEgGbvXpEdI/AAAAAAAADH8/Cjge_Mrrtrk/s1200/1.jpg?imgmax=2048http://2.bp.blogspot.com/-r__VMgNuX4E/UEgGdNEr5lI/AAAAAAAADIE/TeKStLzD3jg/s1200/1.jpg?imgmax=2048http://2.bp.blogspot.com/-FXcf7qgP07w/UEgGeleg_xI/AAAAAAAADIM/nyYPXgT3LZ4/s1200/1.jpg?imgmax=2048http://2.bp.blogspot.com/-KPz0PeTkprI/UEgGf7DFPzI/AAAAAAAADIU/R6uZ5uV_FRg/s1200/1.jpg?imgmax=2048http://2.bp.blogspot.com/-t-_MqgzxgdA/UEgGhnWYnpI/AAAAAAAADIc/JyP9s0tb9iY/s1200/1.jpg?imgmax=2048http://2.bp.blogspot.com/-h0xpqPEUIAs/UEgGi6I6EaI/AAAAAAAADIk/J1bdOwLq4uI/s1200/1.jpg?imgmax=2048http://2.bp.blogspot.com/-qVLmUqssYRs/UEgGk21nGXI/AAAAAAAADIs/OPDdx7eCMeg/s1200/1.jpg?imgmax=2048http://2.bp.blogspot.com/-hCfvFsdWIKQ/UEgGmMqRWyI/AAAAAAAADI0/31cy9_9cW5I/s1200/1.jpg?imgmax=2048http://2.bp.blogspot.com/-jaeCggLRUkU/UEgGnWg5w7I/AAAAAAAADI8/lzKKiwoCfwI/s1200/1.jpg?imgmax=2048http://2.bp.blogspot.com/-0yqNpwyScyY/UEgGowjxP4I/AAAAAAAADJE/fFAxry-RCY0/s1200/1.jpg?imgmax=2048http://2.bp.blogspot.com/-aGOCI6FfKBQ/UEgGqGqC2HI/AAAAAAAADJM/ceKVZS2ekSo/s1200/1.jpg?imgmax=2048http://2.bp.blogspot.com/-YO34HC6eCkM/UEgGsPC8b2I/AAAAAAAADJU/1RFQEXKT4Lw/s1200/1.jpg?imgmax=2048http://2.bp.blogspot.com/-l4X-L_vu5xg/UEgGt9vaT0I/AAAAAAAADJk/t_AJkwje_6s/s1200/1.jpg?imgmax=2048http://2.bp.blogspot.com/-ed3MfPs2tNg/UEgGvnbWaWI/AAAAAAAADJs/i4HZap4XdRo/s1200/1.jpg?imgmax=2048http://2.bp.blogspot.com/-HFbLWywUmv4/UEgGw9Mb6BI/AAAAAAAADJ0/xbuatBC6iVk/s1200/1.jpg?imgmax=2048http://2.bp.blogspot.com/-Vd7tjH0cBXo/UEgGyvAfB0I/AAAAAAAADJ8/b0R_-y_olpc/s1200/1.jpg?imgmax=2048http://2.bp.blogspot.com/-hl0bgqr9xYM/UEgG0KARcfI/AAAAAAAADKE/n4E211gYprE/s1200/1.jpg?imgmax=2048http://2.bp.blogspot.com/-pkJbIk6RVYA/UEgG2H0oKtI/AAAAAAAADKM/mqmxT-wmFxI/s1200/1.jpg?imgmax=2048http://2.bp.blogspot.com/-xsA38Tf6980/UEgG3xFc7yI/AAAAAAAADKU/M7q-FzZb77w/s1200/1.jpg?imgmax=2048http://2.bp.blogspot.com/-ChNCOidsYDY/UEgG7U6O5DI/AAAAAAAADKc/ldHDEe0wxBM/s1200/1.jpg?imgmax=2048http://2.bp.blogspot.com/-m8rl8wICR90/UEgG-Ch4wvI/AAAAAAAADKk/wd5CjxVq9k8/s1200/1.jpg?imgmax=2048http://2.bp.blogspot.com/-PuYMVFndKeg/UEgHAK6kCDI/AAAAAAAADKs/u1-Bt5Kcu2A/s1200/1.jpg?imgmax=2048http://2.bp.blogspot.com/-ouNKBLc-sBA/UEgHBZvbwMI/AAAAAAAADK0/1dO2kJR9iFU/s1200/1.jpg?imgmax=2048http://2.bp.blogspot.com/-5eeCzTSML8w/UEgHDq7D4GI/AAAAAAAADK8/Jxpemg1x1jY/s1200/1.jpg?imgmax=2048http://2.bp.blogspot.com/-wyebw3lados/UEgHFm4xOBI/AAAAAAAADLE/ZxC4RGE1cvo/s1200/1.jpg?imgmax=2048http://2.bp.blogspot.com/-lrEf73b8gRI/UEgHHq43MTI/AAAAAAAADLM/Zr2SxvqhzBM/s1200/1.jpg?imgmax=2048http://2.bp.blogspot.com/-MnTaKEUC17Q/UEgHJSRDV1I/AAAAAAAADLU/j749kB8rD3o/s1200/1.jpg?imgmax=2048http://2.bp.blogspot.com/-LBF9m4P8uwE/UEgHLfP2dQI/AAAAAAAADLk/1BntCsh_keg/s1200/1.jpg?imgmax=2048http://2.bp.blogspot.com/-eoy_YaK01AE/UEgHM4IPHRI/AAAAAAAADLs/CfAfFyY7--M/s1200/1.jpg?imgmax=2048http://2.bp.blogspot.com/-pbjjIgvDBKM/UEgHPr69J2I/AAAAAAAADL0/Wz_pMrV-AU8/s1200/1.jpg?imgmax=2048http://2.bp.blogspot.com/-pQg_EeYL1OY/UEgHSXrQMSI/AAAAAAAADL8/myg9uXACE7o/s1200/1.jpg?imgmax=2048', '2018-03-31 03:34:59', NULL),
 (14, 4, 3, '', 2, 0, 'http://3.bp.blogspot.com/-_H7bhDDFHVc/UnyMVzIkUtI/AAAAAAACBqk/j75ZtPsy0e0/s1600/Chap+002-02.jpg?imgmax=2000http://1.bp.blogspot.com/-3NJHBvUoC9I/UnyMV89ViGI/AAAAAAACBqs/rtTXTnPHZEk/s1600/Chap+002-03.jpg?imgmax=2000http://2.bp.blogspot.com/-6VgUfHhHOc4/UnyMWvTMq-I/AAAAAAACBq0/3NxHUXuxCCM/s1600/Chap+002-04.jpg?imgmax=2000http://4.bp.blogspot.com/-M7ypqAhLSoo/UnyMXEWLObI/AAAAAAACBq8/3WGl8CNSSY8/s1600/Chap+002-05.jpg?imgmax=2000http://1.bp.blogspot.com/-TGW2ztK8Gnw/UnyMXQSKIVI/AAAAAAACBrA/N7M-XsOKrlo/s1600/Chap+002-06.jpg?imgmax=2000http://4.bp.blogspot.com/-EFCgUN6CSoM/UnyMYna9EmI/AAAAAAACBrc/owo85RgIKuo/s1600/Chap+002-07.jpg?imgmax=2000http://1.bp.blogspot.com/-8AcPUdDQH40/UnyMYd90QgI/AAAAAAACBrQ/bLeqV1t-WDk/s1600/Chap+002-08.jpg?imgmax=2000http://1.bp.blogspot.com/-vqi_KLoecrA/UnyMYqNDKnI/AAAAAAACBrU/jU-X5GcGpsg/s1600/Chap+002-09.jpg?imgmax=2000http://4.bp.blogspot.com/-z3_gGXLUZcA/UnyMZc8-tsI/AAAAAAACBrk/8xIqbXhunnI/s1600/Chap+002-10.jpg?imgmax=2000http://2.bp.blogspot.com/-9Jqqo-Gto8U/UnyMZ1p8ZPI/AAAAAAACBrs/qtF-SGmMa0A/s1600/Chap+002-11.jpg?imgmax=2000http://4.bp.blogspot.com/-VoHs9dDxa8Y/UnyMaO8uk3I/AAAAAAACBrw/dFAdnPj8MfI/s1600/Chap+002-12.jpg?imgmax=2000http://4.bp.blogspot.com/-eedhvgwcOig/UnyMbNV8unI/AAAAAAACBsA/n0tiB1nvEbI/s1600/Chap+002-13.jpg?imgmax=2000http://4.bp.blogspot.com/-LzFMNEfUR8o/UnyMbckt42I/AAAAAAACBsE/agLSSKhmXIA/s1600/Chap+002-14.jpg?imgmax=2000http://2.bp.blogspot.com/-o4wmU1snUSg/UnyMbhhFnkI/AAAAAAACBsI/pb8gqUHOeTk/s1600/Chap+002-15.jpg', 'doraemon_2_1.jpg/doraemon_2_2.jpg/doraemon_2_3.jpg/doraemon_2_4.jpg/doraemon_2_5.jpg/doraemon_2_6.jpg/doraemon_2_7.jpg/doraemon_2_8.jpg/doraemon_2_9.jpg/doraemon_2_10.jpg/doraemon_2_11.jpg/doraemon_2_12.jpg/doraemon_2_13.jpg/doraemon_2_14.jpg', '2018-03-31 03:39:04', NULL),
-(15, 4, 3, '', 3, 0, 'http://2.bp.blogspot.com/-VUqAdo997x0/UnyMiOqbeWI/AAAAAAACBsc/XrGk3iHfFeI/s1600/Chap+003-01.jpg?imgmax=2000http://1.bp.blogspot.com/-BsUQsmzd8as/UnyMiLv9piI/AAAAAAACBsk/LmI-sAvUUe4/s1600/Chap+003-02.jpg?imgmax=2000http://3.bp.blogspot.com/-_9npOmMEN78/UnyMh_sHk6I/AAAAAAACBsY/GqltR8qLzNM/s1600/Chap+003-03.jpg?imgmax=2000http://3.bp.blogspot.com/-fyoNixAWYsM/UnyMii9h7FI/AAAAAAACBss/Q9ZOov2WWoI/s1600/Chap+003-04.jpg?imgmax=2000http://1.bp.blogspot.com/-bOMXJvTdupg/UnyMjgUyVtI/AAAAAAACBs0/n4ccWc5ypt4/s1600/Chap+003-05.jpg?imgmax=2000http://1.bp.blogspot.com/-KJCS10pPJKk/UnyMj_Q3GiI/AAAAAAACBtE/hhtpkOG0zEQ/s1600/Chap+003-06.jpg?imgmax=2000http://2.bp.blogspot.com/-oq6l-uYBAn0/UnyMj71NpgI/AAAAAAACBtA/2xfNzSIo9lM/s1600/Chap+003-07.jpg?imgmax=2000http://2.bp.blogspot.com/-QguLeafh6jA/UnyMkziJVhI/AAAAAAACBtM/DsJ5wf_aMHg/s1600/Chap+003-08.jpg?imgmax=2000http://1.bp.blogspot.com/-ivmbZLXCTdw/UnyMlGr_aII/AAAAAAACBtQ/iWTH8yHsYws/s1600/Chap+003-credits.jpg', 'doraemon_3_1.jpg/doraemon_3_2.jpg/doraemon_3_3.jpg/doraemon_3_4.jpg/doraemon_3_5.jpg/doraemon_3_6.jpg/doraemon_3_7.jpg/doraemon_3_8.jpg/doraemon_3_9.jpg/doraemon_3_10.jpg/doraemon_3_11.jpg/doraemon_3_12.jpg/doraemon_3_13.jpg/doraemon_3_14.jpg/doraemon_3_15.jpg/doraemon_3_16.jpg/doraemon_3_17.jpg/doraemon_3_18.jpg/doraemon_3_19.jpg/doraemon_3_20.jpg/doraemon_3_1.jpg/doraemon_3_2.jpg/doraemon_3_3.jpg/doraemon_3_4.jpg/doraemon_3_5.jpg/doraemon_3_6.jpg/doraemon_3_7.jpg/doraemon_3_8.jpg/doraemon_3_9.jpg/doraemon_3_10.jpg/doraemon_3_11.jpg/doraemon_3_12.jpg/doraemon_3_13.jpg/doraemon_3_14.jpg/doraemon_3_15.jpg/doraemon_3_16.jpg/doraemon_3_17.jpg/doraemon_3_18.jpg/doraemon_3_19.jpg/doraemon_3_20.jpg', '2018-03-31 03:39:27', NULL),
-(16, 3, 2, 'cut thu', 1, 0, '321', 'fda', '2018-04-01 08:09:55', NULL),
-(18, 3, 2, 'huy', 1, 0, '123', '234ádf', '2018-04-01 13:57:04', NULL);
+(15, 4, 3, '', 3, 0, 'http://2.bp.blogspot.com/-VUqAdo997x0/UnyMiOqbeWI/AAAAAAACBsc/XrGk3iHfFeI/s1600/Chap+003-01.jpg?imgmax=2000http://1.bp.blogspot.com/-BsUQsmzd8as/UnyMiLv9piI/AAAAAAACBsk/LmI-sAvUUe4/s1600/Chap+003-02.jpg?imgmax=2000http://3.bp.blogspot.com/-_9npOmMEN78/UnyMh_sHk6I/AAAAAAACBsY/GqltR8qLzNM/s1600/Chap+003-03.jpg?imgmax=2000http://3.bp.blogspot.com/-fyoNixAWYsM/UnyMii9h7FI/AAAAAAACBss/Q9ZOov2WWoI/s1600/Chap+003-04.jpg?imgmax=2000http://1.bp.blogspot.com/-bOMXJvTdupg/UnyMjgUyVtI/AAAAAAACBs0/n4ccWc5ypt4/s1600/Chap+003-05.jpg?imgmax=2000http://1.bp.blogspot.com/-KJCS10pPJKk/UnyMj_Q3GiI/AAAAAAACBtE/hhtpkOG0zEQ/s1600/Chap+003-06.jpg?imgmax=2000http://2.bp.blogspot.com/-oq6l-uYBAn0/UnyMj71NpgI/AAAAAAACBtA/2xfNzSIo9lM/s1600/Chap+003-07.jpg?imgmax=2000http://2.bp.blogspot.com/-QguLeafh6jA/UnyMkziJVhI/AAAAAAACBtM/DsJ5wf_aMHg/s1600/Chap+003-08.jpg?imgmax=2000http://1.bp.blogspot.com/-ivmbZLXCTdw/UnyMlGr_aII/AAAAAAACBtQ/iWTH8yHsYws/s1600/Chap+003-credits.jpg', 'doraemon_3_1.jpg/doraemon_3_2.jpg/doraemon_3_3.jpg/doraemon_3_4.jpg/doraemon_3_5.jpg/doraemon_3_6.jpg/doraemon_3_7.jpg/doraemon_3_8.jpg/doraemon_3_9.jpg/doraemon_3_10.jpg/doraemon_3_11.jpg/doraemon_3_12.jpg/doraemon_3_13.jpg/doraemon_3_14.jpg/doraemon_3_15.jpg/doraemon_3_16.jpg/doraemon_3_17.jpg/doraemon_3_18.jpg/doraemon_3_19.jpg/doraemon_3_20.jpg/doraemon_3_1.jpg/doraemon_3_2.jpg/doraemon_3_3.jpg/doraemon_3_4.jpg/doraemon_3_5.jpg/doraemon_3_6.jpg/doraemon_3_7.jpg/doraemon_3_8.jpg/doraemon_3_9.jpg/doraemon_3_10.jpg/doraemon_3_11.jpg/doraemon_3_12.jpg/doraemon_3_13.jpg/doraemon_3_14.jpg/doraemon_3_15.jpg/doraemon_3_16.jpg/doraemon_3_17.jpg/doraemon_3_18.jpg/doraemon_3_19.jpg/doraemon_3_20.jpg', '2018-03-31 03:39:27', NULL);
 
 -- --------------------------------------------------------
 
@@ -143,13 +140,12 @@ CREATE TABLE `comics` (
 --
 
 INSERT INTO `comics` (`id`, `name_comic`, `name_less`, `id_author`, `id_editor`, `category`, `description`, `images`, `view`, `status`, `create_time`, `update_time`, `chapter`) VALUES
-(1, 'Thám tử lừng danh conan', 'Detective_Conan', 1, 1, 'Manga', 'Dị Thứ Nguyên Thể - Nova\" bắt đầu gây chiến tranh với loài người. Để chống lại nỗi hiểm họa này, học viện Genetics được thành lập để huấn luyện những chiến binh Pandora có khả năng sử dụng vũ khí và giáp chiến đặc biệt. Kazuya Aoi quyết định nhập học trường vì lời hứa với chị gái cậu, một chiến binh Vip đã hi sinh trong trận chiến. Ở đây cậu gặp Satellizer El Bridgette, biệt danh \"Untouchable Queen\" vì tính tình cách ly lập dị và cũng vì là học sinh cấp cao tại học viện, có thành tích bất bại trong giả lập thực chiến... cho tới khi gặp được Aoi.', 'anh1.jpg', 17, 1, '2018-03-08 00:00:00', '2018-03-01 00:00:00', 1),
-(2, 'Beelzebub', 'beelzebub', 2, 3, 'Action, Anime, Comedy, Drama, Fantasy, Shounen', 'Vào một ngày, quỷ vương bảo rằng \"Từ ngày mai ta sẽ tiêu diệt loài người\". Nhưng rồi vì một vài lí do, ông ta quyết định chuyển giao việc này lại cho con trai mới sinh chưa được bao lâu của mình – Beelzebub. Và thế là Beelzebub được đưa đến thế giới loài người để nuôi dạy trưởng thành, rồi sau này chính cậu sẽ phụng mệnh tiêu diệt loài người. Để nuôi dưỡng Beelzebub lớn mạnh lên cần một người mạnh mẽ làm cha/mẹ cho cậu bé. Và nhân vật chính của truyện – Oga Tatsumi đã được chọn bởi sức mạnh đáng sợ của cậu.', 'anh3.jpg', 47, 1, '2018-03-10 00:00:00', '2017-12-20 00:00:00', 1),
-(4, 'Doraemon', 'doraemon', 2, 2, 'Comedy , Fantasy', 'Chuyện kể về ông chủ của 1 quán ăn nhỏ. Chuyện bắt đầu khi anh gặp vài thằng \\\"trẻ trâu\\\", chúng nghĩ rằng anh chẳng là ai cả. Nhưng liệu chúng có biết đc quá khứ của anh. Anh chỉ là chủ của 1 quán ăn bình thường, hay một cái gì đó hơn thế ? Hãy cùng tìm hiều về anh ấy nhé...', 'anh5.jpg', 8, 0, '2018-03-14 17:02:42', '2018-03-14 17:02:42', 1),
-(8, 'Comic by Huydz', NULL, 2, 2, 'anime, manga', 'ádfg', 'anh9.jpg', 1, 0, '2018-04-01 18:34:52', NULL, 1),
-(9, 'Tây Du', NULL, 2, 2, 'sda', 'a', 'anh10.jpg', 1, 0, '2018-04-01 20:17:26', NULL, 1),
-(10, 'Tiểu Mập Mập', NULL, 3, 1, 'Manga, life not easy', 'Hello Huy đz', 'anh2.jpg', 0, 0, '2018-04-01 21:28:02', NULL, 1),
-(11, 'Fairy Tail', NULL, 2, 2, 'Manga', 'Huy đz', 'anh8.jpg', 0, 0, '2018-04-01 21:29:24', NULL, 1);
+(1, 'Thám tử lừng danh conan', 'Detective_Conan', 1, 1, 'Manga', 'Dị Thứ Nguyên Thể - Nova\" bắt đầu gây chiến tranh với loài người. Để chống lại nỗi hiểm họa này, học viện Genetics được thành lập để huấn luyện những chiến binh Pandora có khả năng sử dụng vũ khí và giáp chiến đặc biệt. Kazuya Aoi quyết định nhập học trường vì lời hứa với chị gái cậu, một chiến binh Vip đã hi sinh trong trận chiến. Ở đây cậu gặp Satellizer El Bridgette, biệt danh \"Untouchable Queen\" vì tính tình cách ly lập dị và cũng vì là học sinh cấp cao tại học viện, có thành tích bất bại trong giả lập thực chiến... cho tới khi gặp được Aoi.', 'anh1.jpg', 55, 1, '2018-03-08 00:00:00', '2018-03-01 00:00:00', 1),
+(2, 'Beelzebub', 'beelzebub', 2, 3, 'Action, Anime, Comedy, Drama, Fantasy, Shounen', 'Vào một ngày, quỷ vương bảo rằng \"Từ ngày mai ta sẽ tiêu diệt loài người\". Nhưng rồi vì một vài lí do, ông ta quyết định chuyển giao việc này lại cho con trai mới sinh chưa được bao lâu của mình – Beelzebub. Và thế là Beelzebub được đưa đến thế giới loài người để nuôi dạy trưởng thành, rồi sau này chính cậu sẽ phụng mệnh tiêu diệt loài người. Để nuôi dưỡng Beelzebub lớn mạnh lên cần một người mạnh mẽ làm cha/mẹ cho cậu bé. Và nhân vật chính của truyện – Oga Tatsumi đã được chọn bởi sức mạnh đáng sợ của cậu.', 'anh3.jpg', 85, 1, '2018-03-10 00:00:00', '2017-12-20 00:00:00', 1),
+(4, 'Doraemon', 'doraemon', 2, 2, 'Comedy , Fantasy', 'Chuyện kể về ông chủ của 1 quán ăn nhỏ. Chuyện bắt đầu khi anh gặp vài thằng \\\"trẻ trâu\\\", chúng nghĩ rằng anh chẳng là ai cả. Nhưng liệu chúng có biết đc quá khứ của anh. Anh chỉ là chủ của 1 quán ăn bình thường, hay một cái gì đó hơn thế ? Hãy cùng tìm hiều về anh ấy nhé...', 'anh5.jpg', 11, 0, '2018-03-14 17:02:42', '2018-03-14 17:02:42', 1),
+(8, 'Comic by Huydz', NULL, 2, 2, 'anime, manga', 'ádfg', 'anh9.jpg', 9, 0, '2018-04-01 18:34:52', NULL, 1),
+(9, 'Tây Du', NULL, 2, 2, 'sda', 'a', 'anh10.jpg', 66, 0, '2018-04-01 20:17:26', NULL, 1),
+(10, 'Tiểu Mập Mập', NULL, 3, 1, 'Manga, life not easy', 'Hello Huy đz', 'anh2.jpg', 7, 0, '2018-04-01 21:28:02', NULL, 1);
 
 -- --------------------------------------------------------
 
@@ -304,7 +300,174 @@ INSERT INTO `viewlogwebs` (`LogID`, `IpClient`, `CreatedTime`, `ID_Comic`) VALUE
 (107, '::1', '2018-04-01 21:22:09', 9),
 (108, '::1', '2018-04-01 21:45:05', 2),
 (109, '::1', '2018-04-01 21:59:18', 2),
-(110, '::1', '2018-04-01 21:59:55', 2);
+(110, '::1', '2018-04-01 21:59:55', 2),
+(111, '::1', '2018-04-02 07:54:22', 2),
+(112, '::1', '2018-04-02 08:58:39', 2),
+(113, '::1', '2018-04-02 14:32:29', 1),
+(114, '::1', '2018-04-02 14:33:41', 2),
+(115, '::1', '2018-04-02 14:34:16', 1),
+(116, '::1', '2018-04-02 15:15:56', 1),
+(117, '::1', '2018-04-02 15:16:00', 1),
+(118, '::1', '2018-04-02 15:17:19', 1),
+(119, '::1', '2018-04-02 15:18:53', 2),
+(120, '::1', '2018-04-02 15:19:00', 2),
+(121, '::1', '2018-04-02 15:20:16', 2),
+(122, '::1', '2018-04-02 15:22:00', 2),
+(123, '::1', '2018-04-02 15:22:17', 2),
+(124, '::1', '2018-04-02 15:22:50', 2),
+(125, '::1', '2018-04-02 15:22:57', 2),
+(126, '::1', '2018-04-02 15:23:10', 2),
+(127, '::1', '2018-04-02 15:28:27', 4),
+(128, '::1', '2018-04-02 15:29:35', 1),
+(129, '::1', '2018-04-02 15:32:40', 1),
+(130, '::1', '2018-04-02 15:32:46', 8),
+(131, '::1', '2018-04-02 15:46:51', 1),
+(132, '::1', '2018-04-02 15:50:20', 9),
+(133, '::1', '2018-04-02 15:51:33', 9),
+(134, '::1', '2018-04-02 15:51:41', 9),
+(135, '::1', '2018-04-02 15:51:52', 9),
+(136, '::1', '2018-04-02 15:53:43', 9),
+(137, '::1', '2018-04-02 15:53:45', 9),
+(138, '::1', '2018-04-02 15:56:02', 9),
+(139, '::1', '2018-04-02 15:56:10', 9),
+(140, '::1', '2018-04-02 15:56:19', 2),
+(141, '::1', '2018-04-02 15:56:24', 1),
+(142, '::1', '2018-04-02 16:42:29', 2),
+(143, '::1', '2018-04-02 17:07:24', 2),
+(144, '::1', '2018-04-02 17:08:07', 2),
+(145, '::1', '2018-04-02 17:19:51', 10),
+(146, '::1', '2018-04-02 17:29:56', 11),
+(147, '::1', '2018-04-02 17:30:00', 2),
+(148, '::1', '2018-04-02 17:33:21', 2),
+(149, '::1', '2018-04-02 17:36:10', 1),
+(150, '::1', '2018-04-02 19:02:31', 2),
+(151, '::1', '2018-04-02 19:03:33', 2),
+(152, '::1', '2018-04-02 19:03:39', 2),
+(153, '::1', '2018-04-02 19:03:49', 2),
+(154, '::1', '2018-04-02 19:04:04', 1),
+(155, '::1', '2018-04-02 19:07:10', 10),
+(156, '::1', '2018-04-02 19:25:23', 10),
+(157, '::1', '2018-04-02 19:53:20', 2),
+(158, '::1', '2018-04-02 20:12:19', 1),
+(159, '::1', '2018-04-02 20:30:25', 1),
+(160, '::1', '2018-04-02 20:30:52', 2),
+(161, '::1', '2018-04-02 20:31:06', 9),
+(162, '::1', '2018-04-02 20:31:13', 10),
+(163, '::1', '2018-04-02 20:32:02', 9),
+(164, '::1', '2018-04-02 20:32:14', 8),
+(165, '::1', '2018-04-02 20:36:10', 1),
+(166, '::1', '2018-04-02 20:36:26', 10),
+(167, '::1', '2018-04-02 20:36:45', 1),
+(168, '::1', '2018-04-02 20:36:58', 1),
+(169, '::1', '2018-04-02 20:37:13', 1),
+(170, '::1', '2018-04-02 20:37:31', 9),
+(171, '::1', '2018-04-02 20:37:32', 0),
+(172, '::1', '2018-04-02 20:38:21', 2),
+(173, '::1', '2018-04-02 20:38:24', 2),
+(174, '::1', '2018-04-02 20:38:26', 1),
+(175, '::1', '2018-04-02 20:38:28', 8),
+(176, '::1', '2018-04-02 20:38:35', 9),
+(177, '::1', '2018-04-02 20:38:37', 9),
+(178, '::1', '2018-04-02 20:38:39', 2),
+(179, '::1', '2018-04-02 20:38:42', 2),
+(180, '::1', '2018-04-02 20:39:28', 2),
+(181, '::1', '2018-04-02 20:39:48', 9),
+(182, '::1', '2018-04-02 20:39:50', 9),
+(183, '::1', '2018-04-02 20:39:51', 9),
+(184, '::1', '2018-04-02 20:39:52', 9),
+(185, '::1', '2018-04-02 20:39:53', 9),
+(186, '::1', '2018-04-02 20:39:55', 9),
+(187, '::1', '2018-04-02 20:40:01', 9),
+(188, '::1', '2018-04-02 20:40:02', 9),
+(189, '::1', '2018-04-02 20:40:02', 9),
+(190, '::1', '2018-04-02 20:40:19', 9),
+(191, '::1', '2018-04-02 20:40:20', 9),
+(192, '::1', '2018-04-02 20:40:21', 9),
+(193, '::1', '2018-04-02 20:40:22', 9),
+(194, '::1', '2018-04-02 20:40:49', 9),
+(195, '::1', '2018-04-02 20:40:50', 9),
+(196, '::1', '2018-04-02 20:40:51', 9),
+(197, '::1', '2018-04-02 20:40:52', 9),
+(198, '::1', '2018-04-02 20:40:53', 9),
+(199, '::1', '2018-04-02 20:41:24', 9),
+(200, '::1', '2018-04-02 20:41:44', 9),
+(201, '::1', '2018-04-02 20:42:08', 9),
+(202, '::1', '2018-04-02 20:42:09', 9),
+(203, '::1', '2018-04-02 20:42:10', 9),
+(204, '::1', '2018-04-02 20:42:11', 9),
+(205, '::1', '2018-04-02 20:42:12', 9),
+(206, '::1', '2018-04-02 20:42:13', 9),
+(207, '::1', '2018-04-02 20:42:15', 9),
+(208, '::1', '2018-04-02 20:42:18', 11),
+(209, '::1', '2018-04-02 20:42:22', 11),
+(210, '::1', '2018-04-02 20:44:55', 9),
+(211, '::1', '2018-04-02 20:44:57', 9),
+(212, '::1', '2018-04-02 20:44:58', 9),
+(213, '::1', '2018-04-02 20:44:59', 9),
+(214, '::1', '2018-04-02 20:45:00', 9),
+(215, '::1', '2018-04-02 20:46:13', 9),
+(216, '::1', '2018-04-02 20:46:15', 9),
+(217, '::1', '2018-04-02 20:46:16', 9),
+(218, '::1', '2018-04-02 20:46:46', 4),
+(219, '::1', '2018-04-02 20:46:48', 4),
+(220, '::1', '2018-04-02 21:04:00', 9),
+(221, '::1', '2018-04-02 21:04:01', 9),
+(222, '::1', '2018-04-02 21:04:04', 9),
+(223, '::1', '2018-04-02 21:04:06', 9),
+(224, '::1', '2018-04-02 21:04:59', 9),
+(225, '::1', '2018-04-02 21:05:11', 2),
+(226, '::1', '2018-04-02 21:06:40', 10),
+(227, '::1', '2018-04-02 21:06:41', 10),
+(228, '::1', '2018-04-02 21:07:53', 8),
+(229, '::1', '2018-04-02 21:08:07', 8),
+(230, '::1', '2018-04-02 21:09:01', 8),
+(231, '::1', '2018-04-02 21:09:58', 1),
+(232, '::1', '2018-04-02 21:10:08', 1),
+(233, '::1', '2018-04-02 21:11:16', 1),
+(234, '::1', '2018-04-02 21:11:34', 1),
+(235, '::1', '2018-04-02 21:12:00', 1),
+(236, '::1', '2018-04-02 21:13:42', 1),
+(237, '::1', '2018-04-02 21:14:46', 1),
+(238, '::1', '2018-04-02 21:14:51', 1),
+(239, '::1', '2018-04-02 21:14:56', 1),
+(240, '::1', '2018-04-02 21:16:20', 9),
+(241, '::1', '2018-04-02 21:17:09', 9),
+(242, '::1', '2018-04-02 21:17:14', 9),
+(243, '::1', '2018-04-02 21:17:30', 9),
+(244, '::1', '2018-04-02 21:17:34', 9),
+(245, '::1', '2018-04-02 21:17:44', 9),
+(246, '::1', '2018-04-02 21:17:54', 8),
+(247, '::1', '2018-04-02 21:18:01', 11),
+(248, '::1', '2018-04-02 21:18:05', 11),
+(249, '::1', '2018-04-02 21:18:40', 11),
+(250, '::1', '2018-04-02 21:18:43', 11),
+(251, '::1', '2018-04-02 21:18:48', 1),
+(252, '::1', '2018-04-02 21:20:40', 1),
+(253, '::1', '2018-04-02 21:20:43', 1),
+(254, '::1', '2018-04-02 21:20:46', 1),
+(255, '::1', '2018-04-02 21:20:49', 8),
+(256, '::1', '2018-04-02 21:22:13', 2),
+(257, '::1', '2018-04-02 21:22:15', 2),
+(258, '::1', '2018-04-02 21:22:20', 2),
+(259, '::1', '2018-04-02 21:22:21', 2),
+(260, '::1', '2018-04-02 21:22:22', 2),
+(261, '::1', '2018-04-02 21:22:26', 1),
+(262, '::1', '2018-04-02 21:22:28', 1),
+(263, '::1', '2018-04-02 21:22:29', 1),
+(264, '::1', '2018-04-02 21:22:41', 1),
+(265, '::1', '2018-04-02 21:22:57', 1),
+(266, '::1', '2018-04-02 21:23:14', 9),
+(267, '::1', '2018-04-02 21:23:16', 9),
+(268, '::1', '2018-04-02 21:23:19', 9),
+(269, '::1', '2018-04-02 21:23:21', 9),
+(270, '::1', '2018-04-02 21:23:24', 9),
+(271, '::1', '2018-04-02 21:23:27', 9),
+(272, '::1', '2018-04-02 21:23:30', 1),
+(273, '::1', '2018-04-02 21:23:32', 1),
+(274, '::1', '2018-04-02 21:24:22', 2),
+(275, '::1', '2018-04-02 21:24:24', 2),
+(276, '::1', '2018-04-02 21:25:37', 2),
+(277, '::1', '2018-04-02 21:26:21', 2);
 
 --
 -- Indexes for dumped tables
@@ -328,13 +491,16 @@ ALTER TABLE `author`
 -- Indexes for table `chapters`
 --
 ALTER TABLE `chapters`
-  ADD PRIMARY KEY (`id`);
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `id_comic` (`id_comic`);
 
 --
 -- Indexes for table `comics`
 --
 ALTER TABLE `comics`
-  ADD PRIMARY KEY (`id`);
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `id_author` (`id_author`),
+  ADD KEY `id_editor` (`id_editor`);
 
 --
 -- Indexes for table `editor`
@@ -356,7 +522,7 @@ ALTER TABLE `viewlogwebs`
 -- AUTO_INCREMENT for table `admins`
 --
 ALTER TABLE `admins`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
 
 --
 -- AUTO_INCREMENT for table `author`
@@ -368,13 +534,13 @@ ALTER TABLE `author`
 -- AUTO_INCREMENT for table `chapters`
 --
 ALTER TABLE `chapters`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=20;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
 
 --
 -- AUTO_INCREMENT for table `comics`
 --
 ALTER TABLE `comics`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
 
 --
 -- AUTO_INCREMENT for table `editor`
@@ -386,7 +552,7 @@ ALTER TABLE `editor`
 -- AUTO_INCREMENT for table `viewlogwebs`
 --
 ALTER TABLE `viewlogwebs`
-  MODIFY `LogID` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=111;
+  MODIFY `LogID` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=278;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
